@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML FORMS</title>
+    <style>
+        select{
+            width: 100px;
+        }
+        
+    </style>
+</head>
+<body>
+    <form action="#" method="get" autocomplete="on">
+        <fieldset>
+            <legend>Registration details</legend>
+            <label for="name">Legal name</label>
+        <input type="text" id="name"><br>
+        <input type="text" name="username" placeholder="Enter Full Name"><br>
+        Password: <input type="password" name="userpassword" placeholder="Enter Password" pattern="(?=.*[A-Z])(?=.*[a-z])(?=.*\d)(?=.*[@#$%^&!]).{8,}"><br>
+        </fieldset><br>
+        <label for="name">Legal name</label>
+        <input type="text" id="name" required><br>
+        <input type="text" name="username" placeholder="Enter Full Name"><br>
+        Password: <input type="password" name="userpassword" placeholder="Enter Password" pattern="chandan123"><br>
+        Email: <input type="email" name="useremail" placeholder="Enter Email"><br>
+        Gender: <input type="radio" name="gender" value="male">Male
+        <input type="radio" name="gender" value="female">Female <br>
+        Courses: <input type="checkbox" name="coursename">JAVA 
+        <input type="checkbox" name="coursename">JS 
+        <input type="checkbox" name="coursename">PYTHON <br>
+        Adress: <textarea name="useradress" cols="70" rows="7" placeholder="Enter Your Adress"></textarea><br>
+        DOB: <input type="date" name="DOB"><br>
+        D&T: <input type="datetime-local" name="D&T"><br>
+        Time: <input type="time" name="Time"><br>
+        <!-- dropdown -->
+        City: <select name="City" size="1" multiple>
+            <option value="bengaluru">Bengaluru</option>
+            <option value="mangalore">Mangalore</option>
+            <option value="goa">Goa</option>
+            <option value="delhi">Delhi</option>
+        </select><br>
+        <!-- html5(Semantic tag): dtatlist -->
+        Colors:<input list="colors">
+        <datalist id="colors">
+            <option value="red"></option>
+            <option>blue</option>
+            <option >Green</option>
+            <option value="Black">Black</option>
+        </datalist><br>
+        Contact: <input type="tel" name="contact" pattern="[0-9] {3} - [0-9] {4} - [0-9] {3}" placeholder="123-4567-890"><br>
+        File: <input type="file" name="file"><br><br>
+        Numbers: <select>
+        
+        <optgroup label="first group">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+        </optgroup>
+        <optgroup label="second group">
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+        </optgroup>
+        </select><br><br>
+        <audio controls loop autoplay>
+            <source src="./audios/Ra Ra Rakkamma - Kannada(PagalWorld.com.se).mp3"> 
+        </audio>
+        <button>Submit</button>
+       
+
+
+    </form>
+</body>
+</html>

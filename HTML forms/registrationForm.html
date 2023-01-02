@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Details</title>
+    <style>
+        label{
+            display: inline-block;
+            width: 160px;
+            margin: 10px;
+            text-align: end;
+        }
+        input[type=number]{
+            width: 60px;
+        }
+        fieldset{
+            width: 35%;
+           margin: auto;
+            color: white;
+            border: 2px solid white;
+        }
+        body{
+            background-color:rgb(36, 93, 158);
+        }
+        ::-webkit-input-placeholder{
+            font-weight:bold;
+            color: black;
+        }
+        button{
+            width: 110px;
+            margin-left: 480px;
+            height: 30px;
+            font-size:medium;
+            background-color:rgb(36, 93, 158);
+            color: white;
+            border: 2px solid white;
+            }
+        
+        
+        
+    </style>
+</head>
+<body>
+    <form action="#">
+        
+       <fieldset>
+            <legend>Registration Details</legend>
+            <label for="university">University:</label>
+            <input type="text" name="university" id="university" size="35px"><br>
+            <label for="institute">Institute:</label>
+            <input type="text" name="institute" id="institute" size="35px"><br>
+            <label for="Branch">Branch:</label>
+            <input list="branch" placeholder="- -select- -" id="Branch" name="branch">
+            <datalist id="branch">
+            <option value="Civil">Civil</option>
+            <option value="Mech">Mech</option>
+            <option value="CS">CS</option>
+            </datalist><br>
+            <label for="Degree">Degree:</label>
+            <input list="degree" placeholder="- -select- -" id="Degree" name="degree" size="9px">
+            <datalist id="degree">
+            <option value="B.E">B.E</option>
+            <option value="B.A">B.A</option>
+            <option value="B.sc">B.sc</option>
+            </datalist>
+            <input type="radio" name="degree">Pursuing
+            <input type="radio" name="degree">Completed <br>
+            <label for="cpi">Average CPI:</label>
+            <input type="number" name="cpi" id="cpi" size="2">
+            Upto
+            <input type="number" name="upto" id="upto" size="2">Th Semester <br>
+            <label for="experience">Experience:</label>
+            <input type="number" name="experience" id="experience" size="2">Years <br>
+            <label for="blog">Your Website Or Blog:</label>
+            <input type="text" name="blog" id="blog" placeholder="http://" size="35px">
+            </fieldset> <br>
+            <button>Submit</button>
+    </form>
+</body>
+</html>

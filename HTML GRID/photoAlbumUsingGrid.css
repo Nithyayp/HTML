@@ -1,0 +1,150 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin-left: 50px;
+}
+.maincontainer
+{
+    height: 100vh;
+    /* grid-template-columns: repeat(6,1fr); */
+    /* border: 2px solid black; */
+    gap: 20px;
+    display: grid;
+    margin: 20px;
+   grid-template-columns: repeat(18 ,1fr);
+   grid-template-rows: repeat(3,auto);
+}
+.container{
+border: 1px solid black;
+padding: 10px;
+}
+.container1
+{
+   grid-column: 1/4;
+   background-image: url("https://cdn.pixabay.com/photo/2022/09/02/13/35/mountains-7427623__480.jpg");
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-attachment: local;
+}
+.container2
+{
+  grid-column: 4/6; 
+  background-image: url("https://cdn.pixabay.com/photo/2022/08/18/17/00/dog-7395306__480.jpg"); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: local;
+}
+.container3
+{
+  grid-column: 6/8;  
+  background-image: url("https://cdn.pixabay.com/photo/2022/08/17/12/02/field-7392361__480.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: local;
+}
+.container4
+{
+  grid-column: 8/12;  
+  background-image: url("https://cdn.pixabay.com/photo/2022/07/31/10/11/swan-7355432__480.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: local;
+}
+.container5
+{
+  grid-column: 12/15; 
+  background-image: url("https://cdn.pixabay.com/photo/2022/08/17/04/07/tree-7391504__480.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: local; 
+}
+.container6
+{
+    background-image: url("https://cdn.pixabay.com/photo/2022/08/25/20/34/river-7411236__480.jpg");
+    grid-column: 15/18;
+    background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: local;
+}
+.container7
+{
+    grid-column: 1/4;
+    background-image: url("https://cdn.pixabay.com/photo/2022/09/01/09/08/road-7425079__480.jpg");
+    background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: local;
+}
+.container8
+{
+    grid-column: 4/8;
+    background-image: url("https://cdn.pixabay.com/photo/2022/09/05/08/07/butterfly-7433586__480.jpg");
+    background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: local;
+}
+.container9
+
+{
+    grid-column: 8/11;
+    background-image: url("https://cdn.pixabay.com/photo/2022/09/05/08/07/butterfly-7433586__480.jpg");
+    background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: local;
+}
+.container10
+{
+    grid-column: 11/14;
+    background-image: url("https://cdn.pixabay.com/photo/2022/05/02/10/12/window-7169327__480.jpg");
+    background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: local;
+}
+.container11
+
+{
+    grid-column: 14/18;
+    background-image: url("https://cdn.pixabay.com/photo/2022/09/04/22/03/flow-7432846__480.jpg");
+    background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: local;
+}
+.container12
+
+{
+    grid-column: 1/5;
+    background-image: url("https://cdn.pixabay.com/photo/2022/08/22/07/35/city-7403001__480.jpg");
+    background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: local;
+}
+.container13
+
+{
+    grid-column: 5/9;
+    background-image: url("https://cdn.pixabay.com/photo/2022/09/02/09/39/norway-7427120__480.jpg");
+    background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: local;
+}
+.container14
+
+{
+    grid-column: 9/14;
+    background-image: url("https://cdn.pixabay.com/photo/2022/08/19/13/21/dog-7396912__480.jpg");
+    background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: local;
+}
+.container15
+
+{
+    grid-column: 14/18;
+    background-image: url("https://i.vimeocdn.com/video/1008844994-6476435f2dcb0ec69f4dd8fa355fb3eb11d86420d0b985ebf6b26e7916172ba7-d_640x360.jpg");
+    background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: local;
+}
