@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Okra, Helvetica, sans-serif;;
+}
+#header{
+    width: 100%;
+    height: 90px;
+    background-color:rgba(0, 0, 0, 0.7);
+    position: fixed;
+    top: 0;
+    box-shadow: 0 5px 10px black;
+}
+#header>.navbar{
+    width: 90%;
+    margin: 0 auto;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    font-size: x-large;
+    color: aliceblue;
+}
+.logo {
+    flex-basis: 50%;
+    font-size: 40px;
+    color: aliceblue;
+    text-decoration: none;
+}
+.logo:hover{
+    color:rgb(220, 159, 45);
+}
+
+.menu{
+    flex-basis: 50%;
+}
+.menu>ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+.menu>ul>li>a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    color:aliceblue;
+    border-radius: 10px;
+}
+.menu>ul>li>a:hover{
+    background-color:rgb(220, 159, 45);
+}
+input{
+    border-radius: 10px;
+    height: 35px;
+    border: 0 solid;
+}
+#home{
+    height: 100vh;
+    background-image: url(https://cdn.pixabay.com/photo/2021/06/03/01/38/spices-6305695__340.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+#home>h1{
+    font-size: 80px;
+    color:rgb(114, 78, 7);
+    padding: 250px;
+}
+#container{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+}
+#container>.img-container{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+#container1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+#container1>.img-container1{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+#food-list{
+    width: 100%;
+    margin-top: 60px;
+}
+#food-list>.food-list1{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* overflow: hidden; */
+}
+#food-list>.food-list1>.food-list-container{
+    box-shadow: 0 0 20px 0 black;
+    transition: 1s ease;
+}
+.food-list-container:hover{
+    transform: skew(10deg,-10deg);
+    transition: 0.5s ease;
+}
+.wave:before{
+    content: '';
+    background-image: url(https://cdn.hashnode.com/res/hashnode/image/upload/v1602040503586/FW6g79WBY.png);
+    background-size: 20px 20px;
+  background-repeat: no-repeat;
+}
+img{
+    border-radius: 10px;
+}
+h2{
+    position: absolute;
+    top:800px;
+    left: 230px;
+    font-size:35px;
+    visibility: hidden;
+    color: brown;
+    font-weight:bolder;
+}
+.pic{
+    transition: 0.5s ease;
+}
+.pic:hover{
+    opacity: 0.6;
+    transform: scale(1.1);
+    transition:0.5s ease;
+}
+.pic:hover + h2{
+    visibility: visible;
+}
+.pizza{
+    position: absolute;
+    left: 720px;
+}
+.c-cake{
+    position: absolute;
+    left: 1130px;
+}
+.chick{
+    position: absolute;
+    top: 1160px;
+    left: 160px;
+}
+.n-cake{
+    position: absolute;
+    top: 1160px;
+    left: 600px;
+}
+.f-cake{
+    position: absolute;
+    top: 1160px;
+    left: 1170px;
+}
+.thankyou{
+    margin-top: 50px;
+    text-align: center;
+}
+p{
+    text-align: justify;
+}
+p>.thank{
+    float: right;
+}
+.footer{
+    margin-top: 40px;
+    width: 100%;
+    height: 250px;
+    background-color: black;
+    color:  #cacdd2;
+}
+.footer1{
+    text-align: center;
+}
+h3{
+    font-size:35px;
+    color: #ffffff;
+}
+h4{
+    color: #ffff;
+    text-align: center;
+}
